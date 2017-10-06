@@ -88,6 +88,7 @@ angular.module('triviatrends')
     question.chosenAnswer = chosenAnswer;
   }
 
+  $scope.modalOpen = false;
   $scope.openModal = function (question) {
     $scope.currentQuestion = question;
     if (question) {
@@ -97,6 +98,7 @@ angular.module('triviatrends')
     }
     $scope.modalOpen = true;
   }
+  console.log($scope.modalOpen)
 
   $scope.closeModal = function () {
     $scope.editing = false;

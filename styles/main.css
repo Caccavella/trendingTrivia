@@ -143,6 +143,10 @@ ul li label:hover, input:hover + label {
 label, input[type="radio"], input[type="range"] {
   cursor: pointer;
 }
+.answeroption:hover {
+  color: darkslategrey;
+  opacity: .7;
+}
 
 .modal {
   position: fixed;
